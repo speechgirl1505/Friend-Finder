@@ -8,144 +8,152 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
     <div class="container">
-        <h2>Questions</h2>
+        <h2 class="text-center">Questions</h2>
         <hr />
 
-        <h3><strong>All About You</strong></h3>
-        <h4>Who is answering these questions? (Your real name, no crap like Betty Humpter or Harry P. Ness)</h4>
-        <input type="text" id="nombre" class="form-control" required />
-
-        <h4>Can you send us a pic (preferably one of yourself)</h4>
-        <input type="text" id="imagen" class="form-control" required />
+        <h3 class="text-center"><strong>Tell Us About You</strong></h3>
+        <br>
+        <h5>Who is answering these questions? (Your real name, no crap like Betty Humpter or Harry P. Ness)</h5>
+        <input type="text" id="nombre" class="form-control" placeholder="Kim Possible"required />
+        <br>
+        <h5>Can you send us a pic for your contact info (preferably one of yourself)</h5>
+        <input type="text" id="photo" class="form-control" required />
 
         <hr />
 
         <h3><strong>Question 1</strong></h3>
-        <h4>You think Trump has strong moral character and is doing great things for the country?</h4>
+        <h5>Do you think Trump has strong moral character and is doing great things for the country?</h5>
         <select class="theChosenOne" id="answerMeThis1" placeholder="1">
-
-            <option value="1">1 (Strongly DisAgree)</option>
+            <option value=""></option>
+            <option selected="selected" value="1">1 (Strongly DisAgree)</option>
             <option value="2">2 (Strongly DisAgree)</option>
             <option value="3">3 (Strongly DisAgree)</option>
             <option value="4">4 (Strongly DisAgree)</option>
             <option value="5">5 (If you havent figured out the correct answer by now we cant help you and you need it!!!)</option>
         </select>
-
+        <hr>
         <h3><strong>Question 2</strong></h3>
-        <h4>
-            
-        </h4>
+        <h5>
+            Do you wanna build a snowman?
+        </h5>
         <select class="theChosenOne" id="answerMeThis2" placeholder="1">
-           
-            <option value="1">1 (Strongly Agree)</option>
+            <option value=""></option>
+            <option selected="selected" value="1">1 (Strongly Agree)</option>
             <option value="2">2</option>
             <option value="3">3 (Right Down the Middle)</option>
             <option value="4">4</option>
             <option value="5">5 (Strongly Disagree)</option>
         </select>
-
+        <hr>
         <h3><strong>Question 3</strong></h3>
-        <h4>
-            
-        </h4>
+        <h5>
+            Do you like Pina-Coladas?
+        </h5>
         <select class="theChosenOne" id="answerMeThis3">
-           
-            <option value="1">1 (Strongly Agree)</option>
+            <option value=""></option>
+            <option selected="selected" value="1">1 (Strongly Agree)</option>
             <option value="2">2</option>
             <option value="3">3 (Right Down the Middle)</option>
             <option value="4">4</option>
             <option value="5">5 (Strongly Disagree)</option>
         </select>
-
-        <!-- <h3><strong>Question 4</strong></h3>
-        <h4></h4>
+        <hr>
+        <h3><strong>Question 4</strong></h3>
+        <h5>
+            Do you love me?
+        </h5>
         <select class="theChosenOne" id="answerMeThis4">
            
-            <option value="1">1 (Strongly Agree)</option>
+            <option selected="selected" value="1">1 (Strongly Agree)</option>
             <option value="2">2</option>
             <option value="3">3 (Right Down the Middle)</option>
             <option value="4">4</option>
             <option value="5">5 (Strongly Disagree)</option>
         </select>
-
+        <hr>
         <h3><strong>Question 5</strong></h3>
-        <h4></h4>
+        <h5>
+            Do you wanna be my friend?
+        </h5>
         <select class="theChosenOne" id="answerMeThis5">
             <option value=""></option>
-            <option value="1">1 (Strongly Agree)</option>
+            <option selected="selected" value="1">1 (Strongly Agree)</option>
             <option value="2">2</option>
             <option value="3">3 (Right Down the Middle)</option>
             <option value="4">4</option>
             <option value="5">5 (Strongly Disagree)</option>
         </select>
-
+        <hr>
         <h3><strong>Question 6</strong></h3>
-        <h4>
-            
-        </h4>
+        <h5>
+            Do you know the muffin man?
+        </h5>
         <select class="theChosenOne" id="answerMeThis6">
             <option value=""></option>
-            <option value="1">1 (Strongly Agree)</option>
+            <option selected="selected" value="1">1 (Strongly Agree)</option>
             <option value="2">2</option>
             <option value="3">3 (Right Down the Middle)</option>
             <option value="4">4</option>
             <option value="5">5 (Strongly Disagree)</option>
         </select>
-
+        <hr>
         <h3><strong>Question 7</strong></h3>
-        <h4>
-            
-        </h4>
+        <h5>
+            Do you wanna play a game?
+        </h5>
         <select class="theChosenOne" id="answerMeThis7">
             <option value=""></option>
-            <option value="1">1 (Strongly Agree)</option>
+            <option selected="selected" value="1">1 (Strongly Agree)</option>
             <option value="2">2</option>
             <option value="3">3 (Right Down the Middle)</option>
             <option value="4">4</option>
             <option value="5">5 (Strongly Disagree)</option>
         </select>
-
+        <hr>
         <h3><strong>Question 8</strong></h3>
-        <h4></h4>
+        <h5>
+            Do you believe in magic?
+        </h5>
         <select class="theChosenOne" id="answerMeThis8">
             <option value=""></option>
-            <option value="1">1 (Strongly Agree)</option>
+            <option selected="selected" value="1">1 (Strongly Agree)</option>
             <option value="2">2</option>
             <option value="3">3 (Right Down the Middle)</option>
             <option value="4">4</option>
             <option value="5">5 (Strongly Disagree)</option>
         </select>
-
+        <hr>
         <h3><strong>Question 9</strong></h3>
-        <h4>
-            
-        </h4>
+        <h5>
+            Do you feel lucky punk?
+        </h5>
         <select class="theChosenOne" id="answerMeThis9">
             <option value=""></option>
-            <option value="1">1 (Strongly Agree)</option>
+            <option selected="selected" value="1">1 (Strongly Agree)</option>
             <option value="2">2</option>
             <option value="3">3 (Right Down the Middle)</option>
             <option value="4">4</option>
-            <option value="5">5 (Strongly Disagree)</option>
+            <option value="5">5 (Do ya?)</option>
         </select>
-
+        <hr>
         <h3><strong>Question 10</strong></h3>
-        <h4>
-            
-        </h4>
+        <h5>
+            Do you remeber the remember?
+        </h5>
         <select class="theChosenOne" id="answerMeThis10">
             <option value=""></option>
-            <option value="1">1 (Strongly Agree)</option>
+            <option selected="selected" value="1">1 (Strongly Agree)</option>
             <option value="2">2</option>
             <option value="3">3 (Right Down the Middle)</option>
             <option value="4">4</option>
-            <option value="5">5 (Strongly Disagree)</option>
-        </select> -->
-
+            <option value="5">5 (the 21st night of September)</option>
+        </select>
+        <hr>
         <button type="submit" class="btn btn-secondary btn-lg btn-block" id="submit">
             Show Me My New Friend
         </button>
@@ -162,21 +170,16 @@
     </div>
 
  
-    <div id="results-modal" class="modal fade" role="dialog">
-        <div class="modal-dialog">
-           
-
+    <div id="showMeTheModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="closeMe" data-dismiss="modal">
-                        &times;
-                    </button>
-                    <h2 class="modal-title"><strong>Your New B.F.F.F</strong></h2>
+                    <h2 class="modal-title"><strong>Your New B.F.F.F Is...</strong></h2>
                 </div>
                 <div class="modal-body">
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">
                         Close 'er up!
                     </button>
                 </div>
@@ -191,31 +194,28 @@
     $("#submit").on("click", function(){
        var userData = {
     nombre: $("#nombre").val(),
-    imagen: $("#imagen").val(),
-    answers: [$("#answerMeThis1").val(),
-    $("#answerMeThis2").val(),
-    $("#answerMeThis3").val(),
-    // $("#answerMeThis4").val(),
-    // $("#answerMeThis5").val(),
-    // $("#answerMeThis6").val(),
-    // $("#answerMeThis7").val(),
-    // $("#answerMeThis8").val(),
-    // $("#answerMeThis9").val(),
-    // $("#answerMeThis10").val(),
+    photo: $("#photo").val(),
+    scores: [$("#answerMeThis1").val(),
+            $("#answerMeThis2").val(),
+            $("#answerMeThis3").val(),
+            $("#answerMeThis4").val(),
+            $("#answerMeThis5").val(),
+            $("#answerMeThis6").val(),
+            $("#answerMeThis7").val(),
+            $("#answerMeThis8").val(),
+            $("#answerMeThis9").val(),
+            $("#answerMeThis10").val(),
        ]
 }
 
-// $.post("/api/friends", userData, function(data) {
-$.ajax({ url: "/api/friends", method: "GET" })
-   .then(function(data) {
-   console.log(data)}
-   )
-    //    console.log(userData)
-    
+$.post("/api/friends", userData, function(data) {
+       $(".modal-body").text(data.name);
+       $(".modal-body").attr("src", data.photo);
+       $('#showMeTheModal').modal('toggle');
+       $('.form-control').val('');
+})
 
     })
-    
-  
     </script>
 </body>
 
