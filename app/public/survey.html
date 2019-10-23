@@ -204,15 +204,16 @@
     // $("#answerMeThis10").val(),
        ]
 }
+
+// $.post("/api/friends", userData, function(data) {
 $.ajax({ url: "/api/friends", method: "GET" })
-   .then(function(data) 
-   {console.log(data)});
-}
-
+   .then(function(data) {
+   console.log(data)}
+   )
     //    console.log(userData)
-    )
+    
 
-
+    })
     
   
     </script>
