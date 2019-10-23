@@ -35,5 +35,3 @@ module.exports = function (app) {
 
     });
 }
-
-//compare every friend with the userData and then the one with the lowest difference is the new BFFF
