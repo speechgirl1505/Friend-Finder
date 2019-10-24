@@ -13,79 +13,21 @@
 - [About the Project](#about-the-project)
     - [Built With](#built-with)
 - [Getting Started](#getting-started)
-    - [Installation](#installation)
 - [Acknowledgements](#acknowledgements)
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This app is the new less 
- 
+
+This app is like eHarmony but for friends. Our specialized algorithm will make you with your new best friend based on questions "sceintificly" desgined to find your best match. 
+
 ## Built With
 - [Node](https://nodejs.org/en/)
-- [Node Package- DotEnv](https://www.npmjs.com/package/dotenv)
-- [Node Package- Inquirer](https://www.npmjs.com/package/inquirer)
-- [Node Package- MySQL](https://www.npmjs.com/package/mysql)
+- 
+- [Heroku](https://www.heroku.com/home)
 - [othneildrew - Best README Template](https://github.com/othneildrew/Best-README-Template)
+
 <!-- GETTING STARTED -->
-## Getting Started
-To follow along at home these are the steps:
-### Installation
-1. Clone the repo 
-    - git clone https://github.com/speechgirl1505/Bamazon-Storefront.git
-2. Install NPM packages
-    - npm install mysql
-    - npm install inquirer
-    - npm install dotenv
-3. Create .env to hide password for MySQL
-    - #mysqlpassword
-    - mysqlpassword=Put your password here
-4. Create a .gitignore file and put x information in there
-    - node_modules
-    - .env
-### Screenshots
-#### `Customer`
-The Customer can purchase items by their id. If there is enough in stock they will be given a total cost of all items. If there is not enough stock they will be alerted there is not enough in stock and asked if they would like to purchase something else.
-Customer Functions:
-
-- What is the Id of the item you would you like to purchase:
-<img src="cus1.png"/>
-<img src="https://github.com/speechgirl1505/Bamazon-Storefront/blob/master/images/cus1.png"/>
-- How many would you like to buy:
-<img src="cus2.png"/>
-<img src="https://github.com/speechgirl1505/Bamazon-Storefront/blob/master/images/cus2.png"/>
-- Low Stock
-<img src="cus3.png"/>
-<img src="https://github.com/speechgirl1505/Bamazon-Storefront/blob/master/images/cus3.png"/>
-
-#### `Manager`
-
-The manager can view all inventory, view low inventory that has less than 5 items, add to inventory, or add new items to inventory.
-
-Manager Functions:
-- What are we doing today boss:
-<img src="man1.png"/>
-<img src="https://github.com/speechgirl1505/Bamazon-Storefront/blob/master/images/man1.png"/>
-    - View Products for Sale:
-    <img src="man2.png"/>
-    <img src="https://github.com/speechgirl1505/Bamazon-Storefront/blob/master/images/man2.png"/>
-    - View Low Inventory: 
-    <img src="man3.png"/>
-    <img src="https://github.com/speechgirl1505/Bamazon-Storefront/blob/master/images/man3.png"/>
-    - Add to Inventory:
-        - What is the Id of the item you would you like to restock:
-        - How many would you like to add:
-        <img src="man4.png"/>
-        <img src="https://github.com/speechgirl1505/Bamazon-Storefront/blob/master/images/man4.png"/>
-    - Add New Products:
-        - What is the item you would like to add
-        - Into what category will the new item to be placed
-        - How much does this item cost
-        - How many of this item would you like to stock
-        <img src="man5.png"/>
-        <img src="https://github.com/speechgirl1505/Bamazon-Storefront/blob/master/images/man5.png"/>
 
 
-#### `Supervisor`
-To Be Displayed later when I figure it out:
 ## Who's Who of the App
 - Role Lead Developer for Bamazon: Kala Elam
 - Project Link: [Github Link](https://github.com/speechgirl1505/Bamazon-Storefront)

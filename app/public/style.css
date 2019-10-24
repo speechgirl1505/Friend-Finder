@@ -1,4 +1,6 @@
 body {
+    /* background-image: url("https://media.giphy.com/media/ZCMhSmZPBNbSZzMmll/giphy.gif");
+    background-size: 50%; */
     font-family: 'Signika', sans-serif;
     background-color: rgb(181, 159, 196);
 }
@@ -7,4 +9,21 @@ body {
     background-color: rgb(181, 159, 196);
 }
 
+ .btn-secondary {
+    background-color: rgb(46, 19, 78) !important;
+    color: whitesmoke;
+}
 
+h1 {
+    font-family: 'Londrina Outline', cursive;
+    font-size: 90px;
+}
+
+h2 {
+    font-weight: bolder;
+}
+
+h3, .modal-title {
+    font-family: 'Londrina Outline', cursive;
+    font-size: 40px;
+}
