@@ -16,11 +16,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This app is like eHarmony but for friends. Our "specialized" algorithm will make you with your new best friend based on questions "scientifically" desgined to find your best match. 
+This app is like eHarmony but for friends. Our "specialized" algorithm will match you with your new best friend based on questions "scientifically" designed to find your best friendship match. Get to clicking!
 
 ## Built With
 - [Node](https://nodejs.org/en/)
-- [Node](https://www.npmjs.com/package/express)
+- [Node Express](https://www.npmjs.com/package/express)
 - [othneildrew - Best README Template](https://github.com/othneildrew/Best-README-Template)
 
 - App is also deployed on [Heroku](https://www.heroku.com/home)
@@ -29,4 +29,4 @@ This app is like eHarmony but for friends. Our "specialized" algorithm will make
 ## Acknowledgements
     - Tutor and TA's help 
     - Two caring classmates
-    - Some code was influence by SMU Bootcamp class activties
+    - Some code was influenced by SMU Bootcamp class activties
