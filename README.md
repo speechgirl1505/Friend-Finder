@@ -12,25 +12,21 @@
 ## Table of Contents
 - [About the Project](#about-the-project)
     - [Built With](#built-with)
-- [Getting Started](#getting-started)
 - [Acknowledgements](#acknowledgements)
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This app is like eHarmony but for friends. Our specialized algorithm will make you with your new best friend based on questions "sceintificly" desgined to find your best match. 
+This app is like eHarmony but for friends. Our "specialized" algorithm will make you with your new best friend based on questions "scientifically" desgined to find your best match. 
 
 ## Built With
 - [Node](https://nodejs.org/en/)
-- 
-- [Heroku](https://www.heroku.com/home)
+- [Node](https://www.npmjs.com/package/express)
 - [othneildrew - Best README Template](https://github.com/othneildrew/Best-README-Template)
 
-<!-- GETTING STARTED -->
-
-
-## Who's Who of the App
-- Role Lead Developer for Bamazon: Kala Elam
+- App is also deployed on [Heroku](https://www.heroku.com/home)
 - Project Link: [Github Link](https://github.com/speechgirl1505/Bamazon-Storefront)
+
 ## Acknowledgements
     - Tutor and TA's help 
-    - Some code was borrowed from SMU Bootcamp class activties
+    - Two caring classmates
+    - Some code was influence by SMU Bootcamp class activties
