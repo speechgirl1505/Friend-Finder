@@ -213,7 +213,7 @@
             }
 
             $.post("/api/friends", userData, function (data) {
-                $(".modal-body").text(data.name);
+                $("#match-name").text(data.name);
                 $("#match-img").attr("src", data.photo);
                 $('#showMeTheModal').modal('toggle');
                 $('.form-control').val('');
