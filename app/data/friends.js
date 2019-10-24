@@ -81,7 +81,7 @@ var friendlyFolk = [
           ]
         }
         // , {
-      //       "name":"Blind Guy McSqueezy",
+      //       "name":"",
       //   "photo":"",
       //   "scores":[
       //       3,
@@ -97,7 +97,5 @@ var friendlyFolk = [
       //     ]
       //   }
   ];
-  
-
   
   module.exports = friendlyFolk;

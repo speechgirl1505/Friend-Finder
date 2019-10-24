@@ -180,7 +180,7 @@
 				</div>
 				<div class="modal-body">
 					<h2 id="match-name"></h2>
-					<img id="match-img" src="" alt="">
+					<img class="img-responsive" id="match-img" src="" alt="">
         </div>
 					<div class="modal-footer">
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close 'er up!</button>
@@ -193,9 +193,30 @@
 
     <script type="text/javascript">
 
+// Form validation
+$("#submit").on("click", function () {
+    event.preventDefault();
 
+function validateForm() {
+        var isValid = true;
+        $(".form-control").each(function() {
+          if ($(this).val() === "") {
+            isValid = false;
+          }
+        });
 
-        $("#submit").on("click", function () {
+        $(".theChosenOne").each(function() {
+
+          if ($(this).val() === "") {
+            isValid = false;
+          }
+        });
+        return isValid;
+      }
+
+      // If all required fields are filled
+      if (validateForm()) {
+
             var userData = {
                 nombre: $("#nombre").val(),
                 photo: $("#photo").val(),
@@ -218,8 +239,10 @@
                 $('#showMeTheModal').modal('toggle');
                 $('.form-control').val('');
             })
-
-        })
+    } else {
+        alert("Please fill out all fields before submitting!");
+      }
+    })
     </script>
 </body>
 
